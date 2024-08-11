@@ -11,7 +11,7 @@ Combien existe-t-il de zones ?
 
 Ce premier problème provient d'une correpondance de Dijsktra : [https://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1017.PDF](https://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1017.PDF)
 
-![](/assets/images/cinq.png)
+![](/assets/images/cinq.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 Notons qu'ici j'ai représenté les points à intervalles réguliers sur le périmètre du cercle de sorte à obtenir une belle figure géométrique régulière, mais on pourrait tout aussi bien les placer n'importe où sur le périmètre (du moment qu'ils ne se confondent pas), cela ne changerait pas le problème.
@@ -52,17 +52,21 @@ càd 2 nouvelles zones.
 ![](/assets/images/explication.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Ainsi, on trouve que l'ajout d'une corde à la figure entraine la création de :
-$$\Delta f = 1+nbIntersectionsCorde$$
+
+$$\Delta f = 1+nbIntersectionsCorde$$  
+
 zones.
 
 Si on répète ce processus autant de fois qu'il y a de cordes, on trouve :
-$$f=nbCordes+nbIntersections+1$$
+
+$$f=nbCordes+nbIntersections+1$$  
 
 En effet, à chaque ajout d'une nouvelle corde, les nouvelles intersections créées sont comptabilisées, et puisqu'une intersection correspond à la rencontre d'exactement deux cordes (et pas plus !), ce processus itératif va bien prendre en compte chacune des intersections une seule fois. Le + 1 à la fin correspond au fait qu'initialement le cercle vide contient une seule zone.
 
 On peut maintenant trouver f en fonction de n : le nombre de cordes correspond au nombre de façons de sélectionner 2 points parmis n (puisqu'on relie toutes les cordes possibles), et le nombre d'intersections correspond au nombre de façons de sélectionner 4 points parmis n. Pourquoi 4? Parce qu'il faut deux cordes pour faire une intersection, donc 4 points.
 
 On a alors :
+
 $$f=\binom{n}{2}+\binom{n}{4}+1$$  
 $$f = \frac{n}{(n-2)!2!} + \frac{n}{(n-4)!4!} + 1$$   
 $$f = \frac{n*(n-1))}{2} + \frac{n*(n-1)*(n-2)*(n-3)}{24} + 1$$   
