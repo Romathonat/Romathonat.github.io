@@ -9,7 +9,7 @@ On dispose d'un cercle dans lequel un nombre n de points ont été disposés le 
 
 Combien existe-t-il de zones ?
 
-Ce premier problème provient d'une correpondance de Dijsktra : https://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1017.PDF
+Ce premier problème provient d'une correpondance de Dijsktra : [https://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1017.PDF](https://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1017.PDF)
 
 ![](/assets/images/cinq.png)
 
@@ -22,13 +22,13 @@ Posons n = nombres de points et f = nombre de zones.
 
 Une restriction cependant : deux points d'intersection entre des lignes ne peuvent pas être confondus. Autrement dit, on a au maximum deux lignes qui se coupent en un même point. On ne peut donc pas avoir la disposition suivante (pour n =6):
 
-![](/assets/images/impossible.png)
+![](/assets/images/impossible.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 *Figure impossible d'après nos restrictions*
 
 Mais plûtôt quelque chose du style:
 
-![](/assets/images/possible.png)
+![](/assets/images/possible.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 *Mais celle-là oui !*
 
@@ -49,7 +49,7 @@ Nous allons raisonner en imaginant que nous construisons la figure, en ajoutant 
 2 zones à l'origine. On ajoute une corde, ce qui fait ici 2 segments, càd 1 intersection,
 càd 2 nouvelles zones.
 
-![](/assets/images/explication.png)
+![](/assets/images/explication.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Ainsi, on trouve que l'ajout d'une corde à la figure entraine la création de :
 $$\Delta f = 1+nbIntersectionsCorde$$
