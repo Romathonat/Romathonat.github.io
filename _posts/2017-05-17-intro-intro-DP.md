@@ -86,7 +86,6 @@ def Fibo(n):
     
 print(Fibo(10))
 ```
->89
 
 Et là aussi, on est sur une complexité de O(n).
 
