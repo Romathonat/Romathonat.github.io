@@ -1,0 +1,15 @@
+title: VulgaireDev
+description: Une brève description de votre site
+author: Romathonat 
+
+url: "https://romathonat.github.io" # Remplacez par votre URL GitHub Pages
+baseurl: "" # Laissez vide sauf si votre site est dans un sous-dossier du domaine
+
+# Configuration du thème (si vous utilisez un thème supporté par GitHub Pages)
+theme: minima
+
+# Configuration de la langue
+language: fr
+
+# Fuseau horaire
+timezone: Europe/Paris
