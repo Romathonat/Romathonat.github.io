@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Introduction to caffe"
+---
 
 # Introduction
 One the projects I am currently working on is about machine learning, more precisely about neural network.
