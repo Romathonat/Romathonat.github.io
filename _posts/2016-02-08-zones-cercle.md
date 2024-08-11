@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Combien de zones dans ce cercle ?"
+---
+
 ### Position du problème 
 
 On dispose d'un cercle dans lequel un nombre n de points ont été disposés le long de son périmètre. Les points sont ensuite reliés deux à deux, comme sur la figure ci-contre, ce qui génère une figure géométrique.
