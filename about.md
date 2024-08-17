@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![](/assets/images/perso_old.jpg){: style="float: left; margin-right: 20px; width: 150px;"}
+![](/assets/images/perso_old.jpg){: style="float: left; margin-right: 20px; width: 180px;"}
 Romain MATHONAT, ingénieur et docteur en informatique. Internet m'a beaucoup aidé dans mon travail, j'apporte donc ma pierre à l'édifice.
 Mes travaux de recherche se sont concentrés sur la découverte de règles interprétables dans divers types de données.
 Ces recherches ont trouvé des applications concrètes dans plusieurs domaines, tels que l'optimisation de la croissance des plantes dans le contexte des fermes urbaines, l'analyse de données issues de jeux vidéo pour prédire le comportement des utilisateurs. Aujourd'hui je m'interesse à tout ce qui toune autour de la tech et de la data (science & engineering)
