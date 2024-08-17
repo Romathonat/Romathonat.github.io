@@ -9,6 +9,12 @@
   <p><img src="/screenshot.png"/></p>
 </div>
 
+To convert notebooks to markdown:
+
+``` bash
+jupyter-nbconvert --to markdown analyse_coronavirus.ipynb 
+```
+
 ## Installation
 
 Add this line to your Jekyll site's Gemfile:
