@@ -25,13 +25,16 @@ Par exemple, trouver la probabilité de tirer un carreau (on parle de poker):
 $$\frac{13}{52} = \frac{1}{4}$$
   
 ### Arrangement sans répétition
-Un arrangement sans répétition est noté:  
+Un arrangement sans répétition est noté: 
+
 $$A_n^{k}$$
 
 Un arrangement avec répétions c'est prendre k billes parmi n dans un sac de billes, en tenant compte de l'ordre dans lequel on sort chacune d'elles. L'ensemble des issues (qui sont de longueur k) correspond aux arrangements sans répétition.
 
-Par exemple j'ai un sac avec une boule verte (V), une bleue (B) et une rouge(R) (n=3), dans lequel je prend deux billes (k=2) l'ensemble des issues possibles est:  
+Par exemple j'ai un sac avec une boule verte (V), une bleue (B) et une rouge(R) (n=3), dans lequel je prend deux billes (k=2) l'ensemble des issues possibles est:
+
 $${VB, VR, BV, BR, RV, RB}$$   
+
 Ce sont des tuples, l'ordre des éléments est importants.
   
 **Le nombre d'issues possibles est**:  
@@ -100,6 +103,7 @@ Une combinaison avec répétition est une combinaison dans laquelle les élémen
 Par exemple faire 2 tirage de boules avec remise, si on s'intéresse uniquement aux résultats et pas à l'ordre dans lequel elles apparaissent, est une combinaison avec répétition.
 
 Pour le sac exemple, ça nous donne:
+
 $$\{VR, RB, BV, VV, RR, BB\}$$
 
 **Le nombre d'issues possibles est**:  
@@ -115,7 +119,7 @@ $$\frac{4!}{2!(3-1)!} = 6$$
 **NB**: On pourrait se dire qu'il suffirait de diviser les arrangements avec répétitions par k! pour trouver les combinaisons avec répétitions, comme on avait fait dans le cas sans répétition. Ca ne fonctionne pas car il y a des cas où les combinaisons et les arrangements se confondent. Par exemple l'ensemble {RB} correspond bien à 2! tuples (BR et RB), mais l'ensemble {RR} ne génère qu'un seul tuple RR !
 
 ## Principe d'inclusion-exclusion
-![](https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 $$|A\cup B| = |A|+|B|-|A\cap B|$$
 
@@ -123,7 +127,9 @@ $$|A\cup B| = |A|+|B|-|A\cap B|$$
 
 ### Probabilité conditionnelle:  
 
-$$P(A|B) = \frac{P(A\cap B)}{P(B)}$$ si P(B) != 0
+$$P(A|B) = \frac{P(A\cap B)}{P(B)}$$ 
+
+si P(B) != 0
 
 ### Loi des probabilités totales
 Si l'ensemble des issues possibles est divisée en 2 parties disjointes B et C, pour tout évènement A, on a:
