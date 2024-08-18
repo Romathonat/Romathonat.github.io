@@ -13,5 +13,4 @@ Romain MATHONAT, engineer and PhD in Computer Science. The internet has greatly 
 My research has focused on discovering interpretable rules in various types of data.
 This research has found practical applications in several fields, such as optimizing plant growth in urban farming contexts, and analyzing video game data to predict user behavior. Today, I'm interested in everything related to tech and data (science & engineering).
 
-![](/assets/images/btc.png){:style="float: left; margin-right: 20px; width: 25px;"}   bc1qsztq7zmxlqhcpwxply43qgc28nt4zjntnly4yz  
-[![https://paypal.me/romathonat?country.x=FR&locale.x=fr_FR](/assets/images/paypal.png){:style="float: left; margin-right: 20px; width: 150px;"}](https://paypal.me/romathonat?country.x=FR&locale.x=fr_FR) 
+![](/assets/images/btc.png){:style="float: left; margin-right: 20px; width: 25px;"}   bc1qsztq7zmxlqhcpwxply43qgc28nt4zjntnly4yz  [![https://paypal.me/romathonat?country.x=FR&locale.x=fr_FR](/assets/images/paypal.png){:style="float: right; margin-right: 20px; width: 150px;"}](https://paypal.me/romathonat?country.x=FR&locale.x=fr_FR) 
