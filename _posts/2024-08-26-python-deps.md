@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gestion de dépendances et environnement virtuels en python en 2024"
+title: "Gestion de dépendances et environnements virtuels python en 2024"
 ---
 
 Si vous avez déjà eu un des problèmes suivants, ce guide va vous aider (voir vous sauver):
