@@ -165,11 +165,11 @@ Il y a en fait deux cas:
 
 ![](/assets/images/venv_python/image%205.png){:style="display:block; margin-left:auto; margin-right:auto"}    
 
-Ici on installe d’abord seaborn puis numpy dans une version incompatibl. Seaborn ne fonctionne plus: on a certes un message d’erreur, mais pas de rollback, le venv est dans état non fonctionnel pour notre code.
+Ici on installe d’abord seaborn puis numpy dans une version incompatible. Seaborn ne fonctionne plus: on a certes un message d’erreur, mais pas de rollback, le venv est dans état non fonctionnel pour notre code.
 
 - Ca upgrade automatiquement une lib précédente, qu’on avait pourtant fixée :
 
-Par exemple on installe numpy dans une version 1.1.15, on fait notre code, puis plus tard on install seaborn. A ce moment là, numpy va automatiquement être mis à jour vers une version plus récente (sans nous demander notre avis), et donc potentiellement ne sera plus compatible avec notre ancien code.
+Par exemple on installe numpy dans une version 1.1.15, on fait notre code, puis plus tard on installe seaborn. A ce moment là, numpy va automatiquement être mis à jour vers une version plus récente (sans nous demander notre avis), et donc potentiellement ne sera plus compatible avec notre ancien code.
 
 En fait dans ces deux cas nous sommes dans des exemples de “dependency hell”:
 
