@@ -80,7 +80,7 @@ git reset HEAD~ --hard
 [alias]
      fomo = !git fetch origin main && git rebase origin/main
      ci = commit
-     co = checkout -b
+     co = checkout
      st = status -sb
      sts = status -s
      br = branch
@@ -100,5 +100,6 @@ git reset HEAD~ --hard
      oups = commit --amend --no-edit
      unadd = reset HEAD
      nvm = reset --hard HEAD
+     hop = "!f() { git checkout -b $1 && git checkout main && git reset HEAD~ --hard && git checkout $1;}; f"
 ```
 
